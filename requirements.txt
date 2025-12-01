@@ -1,0 +1,5 @@
+aiogram==3.13.1
+opencv-python
+pillow
+moviepy
+numpy
