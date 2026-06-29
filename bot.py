@@ -22,7 +22,12 @@ import time
 import multiprocessing
 
 # === Конфигурация ===
-API_TOKEN = "your_api_token"
+API_TOKEN = os.getenv("BOT_TOKEN", "")
+if not API_TOKEN:
+    raise SystemExit(
+        "BOT_TOKEN is not set. Export it first, e.g. `export BOT_TOKEN=123:ABC` "
+        "(see README)."
+    )
 bot = Bot(token=API_TOKEN, default=DefaultBotProperties(parse_mode="HTML"))
 dp = Dispatcher()
 

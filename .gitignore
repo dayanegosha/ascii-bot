@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Telegram / Telethon sessions — never commit these
+*.session
+*.session-journal
+
+# Runtime media / temp output
+*.mp4
+*_in.mp4
+ascii_*.mp4
+
+# Env & secrets
+.env
+.env.*
+
+# OS junk
+.DS_Store
+Thumbs.db
