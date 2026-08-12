@@ -1,5 +1,9 @@
 # ascii-bot
 
+> **Project moved:** the Telegram renderer and its browser edition now live
+> together in [ASCII Video Studio](https://github.com/dayanegosha/ascii-video-studio).
+> This repository is preserved as a read-only historical snapshot.
+
 Telegram bot that turns a video into **ASCII-art video**. Send a clip, pick a few
 options, and the bot renders every frame as colored or monochrome ASCII and sends
 the result back as an `.mp4`.
