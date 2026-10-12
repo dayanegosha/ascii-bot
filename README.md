@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/project-card.svg" alt="ascii-bot project card" width="100%" /></p>
+
 # ascii-bot
 
 > **Project moved:** the Telegram renderer and its browser edition now live
